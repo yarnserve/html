@@ -76,3 +76,70 @@ h1 {
 .tbl_04 th {
   background-color: #efefef;
 }
+
+/* 테이블 05 */
+.tbl_05 th,
+.tbl_05 td {
+  border: 1px solid #ccc;
+  border-left: none;
+  padding: 10px;
+  text-align: center;
+}
+.tbl_05 td:last-child,
+.tbl_05 th:last-child {
+  border-right: none;
+}
+
+.tbl_05 th {
+  background-color: #efefef;
+}
+
+/* 테이블 06 */
+.tbl_06 th,
+.tbl_06 td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* 달력 */
+.cal {
+  width: 360px;
+  font-size: 12px;
+  color: #333;
+  border-top: 2px solid rgb(114, 114, 114);
+}
+
+.cal td,
+.cal th {
+  border: 1px solid #efefef;
+  padding: 12px;
+}
+
+.cal th {
+  background-color: #eafbde;
+  color: #111;
+}
+
+.cal td {
+  text-align: right;
+  cursor: pointer;
+}
+
+.cal td:hover {
+  background-color: #efefef;
+}
+
+.cal td:last-child,
+.cal th:last-child {
+  color: #0278d3;
+}
+
+.cal td:first-child,
+.cal th:first-child {
+  color: #f03232;
+}
+
+.cal .red {
+  color: #f03232;
+  font-weight: bold;
+}
