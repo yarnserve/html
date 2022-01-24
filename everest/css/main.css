@@ -54,6 +54,10 @@ body {
   width: 16px;
 }
 
+.bars {
+  display: none;
+}
+
 .menu {
   display: flex;
   gap: 60px;
@@ -101,6 +105,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 100%;
 }
 
 .title h2 {
@@ -130,4 +135,32 @@ body {
 
 .footer a:hover i {
   color: #fff;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .title h2 {
+    font-size: 50px;
+    padding: 0 20px;
+  }
+
+  .title p {
+    font-size: 12px;
+    padding: 0 40px;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .sign {
+    display: none;
+  }
+
+  .bars {
+    display: block;
+  }
 }
