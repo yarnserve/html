@@ -23,10 +23,21 @@ body {
 
 .container {
   height: 100vh;
-  background-image: url("../images/main.jpg");
+  /* background-image: url("../images/main.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center; */
+}
+
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  /* z-index: -100; */
 }
 
 .header {
@@ -117,6 +128,8 @@ body {
 .title p {
   font-size: 13px;
   opacity: 0.8;
+  width: 40%;
+  margin: 0 auto;
 }
 
 .footer {
@@ -165,6 +178,7 @@ body {
   .title p {
     font-size: 12px;
     padding: 0 40px;
+    width: 80%;
   }
 
   .social {
@@ -178,5 +192,15 @@ body {
   .bars {
     display: block;
     z-index: 1;
+  }
+}
+
+@media (max-width: 470px) {
+  .title h2 {
+    font-size: 36px;
+  }
+
+  .title p {
+    width: 90%;
   }
 }
